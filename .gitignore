@@ -91,3 +91,6 @@ shellAppWorkspaces
 
 # Expo Client builds
 /client-builds
+
+# Compiled JS
+/packages/expo-*/build/

@@ -1,0 +1,8 @@
+{
+  // With TypeScript 3.2 this can become just "expo-module-scripts/tsconfig"
+  "extends": "../expo-module-scripts/tsconfig.base",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build"
+  }
+}
