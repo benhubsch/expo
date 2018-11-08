@@ -32,6 +32,11 @@ public class GcmRegistrationIntentService extends ExponentNotificationIntentServ
   }
 
   @Override
+  public String getSharedPrefsErrorKey() {
+    return ExponentSharedPreferences.GCM_TOKEN_ERROR_KEY;
+  }
+
+  @Override
   public String getServerType() {
     return "gcm";
   }

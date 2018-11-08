@@ -40,6 +40,11 @@ public class FcmRegistrationIntentService extends ExponentNotificationIntentServ
   }
 
   @Override
+  public String getSharedPrefsErrorKey() {
+    return ExponentSharedPreferences.FCM_TOKEN_ERROR_KEY;
+  }
+
+  @Override
   public String getServerType() {
     return "fcm";
   }
